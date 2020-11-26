@@ -3,24 +3,24 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2019-09-10T20:45:02Z",
-  "id": "qeyvms-visitor-type",
+  "updated": "2020-11-25T19:13:00Z",
+  "id": "visitor-invite",
   "duration": 0,
-  "title": "Visitor Type Management",
+  "title": "Visitor Invite Log",
   "authors": "Karthik Subbaraj",
-  "summary": "This Tutorial will show how you can setup Project Units and.",
-  "source": "1Ze15oIoZxGwYInE19eO1Hy-DDJsInQsRo5xrWm-JnL0",
-  "theme": "qeyvms",
+  "summary": "Learn how to improve your sign-in process with pre-registration",
+  "source": "1FrPUHLvEbdkmNf800O6ppM0mWESdvcUgXi4yvvbdDf0",
+  "theme": "visitor",
   "status": [
     "published"
   ],
   "category": [
-    "qeyvms"
+    "Visitor"
   ],
   "tags": [
     "qeyvms"
   ],
   "feedback": "https://asiatact.com/page/contactus",
   "ga": "UA-52746336-1",
-  "url": "qeyvms-visitor-type"
+  "url": "visitor-invite"
 }
