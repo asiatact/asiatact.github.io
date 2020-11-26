@@ -3,19 +3,19 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-11-25T14:06:37Z",
+  "updated": "2020-11-26T18:25:16Z",
   "id": "location",
   "duration": 0,
-  "title": "Location / Entry Point Management",
+  "title": "Location / Entry Point Setting",
   "authors": "Karthik Subbaraj",
   "summary": "This Tutorial will show how you can setup location management",
   "source": "1sZABT5XJEGNyKol7ILxIaABvpxZwNKxymdZ6DXtKSPY",
-  "theme": "settings",
+  "theme": "setting",
   "status": [
     "published"
   ],
   "category": [
-    "Settings"
+    "setting"
   ],
   "tags": [
     "qeyvms"

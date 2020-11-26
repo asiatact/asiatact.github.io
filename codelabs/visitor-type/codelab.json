@@ -3,19 +3,19 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-11-25T12:31:19Z",
+  "updated": "2020-11-26T18:25:46Z",
   "id": "visitor-type",
   "duration": 0,
-  "title": "Visitor Type Management",
+  "title": "Visitor Type Setting",
   "authors": "Karthik Subbaraj",
   "summary": "This Tutorial will show how you can setup Project Units and.",
   "source": "1Ze15oIoZxGwYInE19eO1Hy-DDJsInQsRo5xrWm-JnL0",
-  "theme": "settings",
+  "theme": "setting",
   "status": [
     "published"
   ],
   "category": [
-    "Settings"
+    "setting"
   ],
   "tags": [
     "qeyvms"
