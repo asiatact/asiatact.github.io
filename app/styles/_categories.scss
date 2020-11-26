@@ -80,7 +80,7 @@ $color-weave-green: #0f9d58;
   $color-google-blue, 'google-g.svg');
   
 @include codelab-card(['setting'],
-  $color-google-blue, 'google-g.svg');
+  $color-google-blue, 'settings.svg');
 
 @include codelab-card(['Setting'],
   $color-analytics-orange, 'google-analytics.svg');
