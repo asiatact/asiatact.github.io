@@ -97,15 +97,24 @@ Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs w
 </paper-dropdown-menu>
 <paper-dropdown-menu label="Filter by category" class="dropdown-filter" no-label-float noink no-animations>
 <paper-listbox id="categorylist" slot="dropdown-content" class="dropdown-content" on-iron-activate="onCategoryActivate" attr-for-selected="filter">
+<paper-item filter="Resident">Resident</paper-item>
 <paper-item filter="Setting">Setting</paper-item>
-<paper-item filter="Unit">Unit</paper-item>
 <paper-item filter="Vehicle Management">Vehicle Management</paper-item>
 <paper-item filter="Visitor">Visitor</paper-item>
-<paper-item filter="qeyvms">qeyvms</paper-item>
-<paper-item filter="setting">setting</paper-item>
 </paper-listbox>
 </paper-dropdown-menu></div>
 <card-sorter id="cards" class="site-width">
+<a href="/codelabs\unit-management\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-resident" data-category="Resident" data-title="Resident Unit Management" data-duration="0" data-updated="2020-11-26T18:42:53Z" data-tags="qeyvms" data-pin="">
+<div class="description">Resident Unit Management</div>
+<div class="card-duration">
+<span></span>
+<span>Updated Nov 26, 2020</span>
+</div>
+<div class="card-footer">
+<div class="category-icon resident-icon"></div>
+<paper-button class="resident-bg">Start</paper-button>
+</div>
+</a>
 <a href="/codelabs\configsetting\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="Setting" data-title="QeyPlus Company Setting" data-duration="0" data-updated="2020-11-26T15:38:31Z" data-tags="qeyvms" data-pin="">
 <div class="description">QeyPlus Company Setting</div>
 <div class="card-duration">
@@ -117,18 +126,51 @@ Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs w
 <paper-button class="setting-bg">Start</paper-button>
 </div>
 </a>
-<a href="/codelabs\unit-management\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-unit" data-category="Unit" data-title="Unit / Host Management" data-duration="0" data-updated="2020-11-25T20:01:47Z" data-tags="qeyvms" data-pin="">
-<div class="description">Unit / Host Management</div>
+<a href="/codelabs\getting-started\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="Setting" data-title="Getting Started with QeyPlus" data-duration="0" data-updated="2020-11-26T18:39:16Z" data-tags="qeyvms" data-pin="">
+<div class="description">Getting Started with QeyPlus</div>
 <div class="card-duration">
 <span></span>
-<span>Updated Nov 25, 2020</span>
+<span>Updated Nov 26, 2020</span>
 </div>
 <div class="card-footer">
-<div class="category-icon unit-icon"></div>
-<paper-button class="unit-bg">Start</paper-button>
+<div class="category-icon setting-icon"></div>
+<paper-button class="setting-bg">Start</paper-button>
 </div>
 </a>
-<a href="/codelabs\resident-vehicle-management\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-vehicle-management" data-category="Vehicle Management" data-title="Resident Vehicle Management" data-duration="0" data-updated="2020-11-25T05:02:39Z" data-tags="qeyvms" data-pin="">
+<a href="/codelabs\location\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="Setting" data-title="Location / Entry Point Setting" data-duration="0" data-updated="2020-11-26T18:41:44Z" data-tags="qeyvms" data-pin="">
+<div class="description">Location / Entry Point Setting</div>
+<div class="card-duration">
+<span></span>
+<span>Updated Nov 26, 2020</span>
+</div>
+<div class="card-footer">
+<div class="category-icon setting-icon"></div>
+<paper-button class="setting-bg">Start</paper-button>
+</div>
+</a>
+<a href="/codelabs\notifications\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="Setting" data-title="Notification Settings" data-duration="0" data-updated="2020-11-26T18:41:08Z" data-tags="qeyvms" data-pin="">
+<div class="description">Notification Settings</div>
+<div class="card-duration">
+<span></span>
+<span>Updated Nov 26, 2020</span>
+</div>
+<div class="card-footer">
+<div class="category-icon setting-icon"></div>
+<paper-button class="setting-bg">Start</paper-button>
+</div>
+</a>
+<a href="/codelabs\visitor-type\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="Setting" data-title="Visitor Type Setting" data-duration="0" data-updated="2020-11-26T18:46:38Z" data-tags="qeyvms" data-pin="">
+<div class="description">Visitor Type Setting</div>
+<div class="card-duration">
+<span></span>
+<span>Updated Nov 26, 2020</span>
+</div>
+<div class="card-footer">
+<div class="category-icon setting-icon"></div>
+<paper-button class="setting-bg">Start</paper-button>
+</div>
+</a>
+<a href="/codelabs\resident-vehicle-management\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-vehicle-management" data-category="Vehicle Management" data-title="Resident Vehicle Management" data-duration="0" data-updated="2020-11-25T05:05:01Z" data-tags="qeyvms" data-pin="">
 <div class="description">Resident Vehicle Management</div>
 <div class="card-duration">
 <span></span>
@@ -150,7 +192,7 @@ Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs w
 <paper-button class="visitor-bg">Start</paper-button>
 </div>
 </a>
-<a href="/codelabs\visitor-log\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-visitor" data-category="Visitor" data-title="Visitor Log" data-duration="0" data-updated="2020-11-25T16:22:20Z" data-tags="qeyvms" data-pin="">
+<a href="/codelabs\visitor-log\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-visitor" data-category="Visitor" data-title="Visitor Log" data-duration="0" data-updated="2020-11-25T16:22:51Z" data-tags="qeyvms" data-pin="">
 <div class="description">Visitor Log</div>
 <div class="card-duration">
 <span></span>
@@ -159,61 +201,6 @@ Codelabs provide a guided, tutorial, hands-on coding experience. Most codelabs w
 <div class="card-footer">
 <div class="category-icon visitor-icon"></div>
 <paper-button class="visitor-bg">Start</paper-button>
-</div>
-</a>
-<a href="/codelabs\qeyvms-resident-vehicle-management\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-qeyvms" data-category="qeyvms" data-title="Resident Vehicle Management" data-duration="0" data-updated="2019-09-10T20:44:37Z" data-tags="qeyvms" data-pin="">
-<div class="description">Resident Vehicle Management</div>
-<div class="card-duration">
-<span></span>
-<span>Updated Sep 10, 2019</span>
-</div>
-<div class="card-footer">
-<div class="category-icon qeyvms-icon"></div>
-<paper-button class="qeyvms-bg">Start</paper-button>
-</div>
-</a>
-<a href="/codelabs\qeyvms-visitor-type\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-qeyvms" data-category="qeyvms" data-title="Visitor Type Management" data-duration="0" data-updated="2020-11-25T12:31:19Z" data-tags="qeyvms" data-pin="">
-<div class="description">Visitor Type Management</div>
-<div class="card-duration">
-<span></span>
-<span>Updated Nov 25, 2020</span>
-</div>
-<div class="card-footer">
-<div class="category-icon qeyvms-icon"></div>
-<paper-button class="qeyvms-bg">Start</paper-button>
-</div>
-</a>
-<a href="/codelabs\location\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="setting" data-title="Location / Entry Point Setting" data-duration="0" data-updated="2020-11-26T18:25:16Z" data-tags="qeyvms" data-pin="">
-<div class="description">Location / Entry Point Setting</div>
-<div class="card-duration">
-<span></span>
-<span>Updated Nov 26, 2020</span>
-</div>
-<div class="card-footer">
-<div class="category-icon setting-icon"></div>
-<paper-button class="setting-bg">Start</paper-button>
-</div>
-</a>
-<a href="/codelabs\notifications\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="setting" data-title="Notification Settings" data-duration="0" data-updated="2020-11-26T18:24:04Z" data-tags="qeyvms" data-pin="">
-<div class="description">Notification Settings</div>
-<div class="card-duration">
-<span></span>
-<span>Updated Nov 26, 2020</span>
-</div>
-<div class="card-footer">
-<div class="category-icon setting-icon"></div>
-<paper-button class="setting-bg">Start</paper-button>
-</div>
-</a>
-<a href="/codelabs\visitor-type\index.html?index=..%2F..index" on-tap="navigate" class="codelab-card category-setting" data-category="setting" data-title="Visitor Type Setting" data-duration="0" data-updated="2020-11-26T18:25:46Z" data-tags="qeyvms" data-pin="">
-<div class="description">Visitor Type Setting</div>
-<div class="card-duration">
-<span></span>
-<span>Updated Nov 26, 2020</span>
-</div>
-<div class="card-footer">
-<div class="category-icon setting-icon"></div>
-<paper-button class="setting-bg">Start</paper-button>
 </div>
 </a>
 </card-sorter>

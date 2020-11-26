@@ -3,7 +3,7 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-11-26T18:24:04Z",
+  "updated": "2020-11-26T18:41:08Z",
   "id": "notifications",
   "duration": 0,
   "title": "Notification Settings",
@@ -15,7 +15,7 @@
     "published"
   ],
   "category": [
-    "setting"
+    "Setting"
   ],
   "tags": [
     "qeyvms"

@@ -3,19 +3,19 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-11-25T20:01:47Z",
+  "updated": "2020-11-26T18:42:53Z",
   "id": "unit-management",
   "duration": 0,
-  "title": "Unit / Host Management",
+  "title": "Resident Unit Management",
   "authors": "Karthik Subbaraj",
   "summary": "Learn about why you needa Unit / Host directory and the different maintenance options.",
   "source": "1XbU12ofSj1NJx80x9DuCYEL7_weeD8_Nk9sHw6nC8hE",
-  "theme": "unit",
+  "theme": "resident",
   "status": [
     "published"
   ],
   "category": [
-    "Unit"
+    "Resident"
   ],
   "tags": [
     "qeyvms"

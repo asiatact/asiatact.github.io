@@ -3,7 +3,7 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-11-26T18:25:16Z",
+  "updated": "2020-11-26T18:41:44Z",
   "id": "location",
   "duration": 0,
   "title": "Location / Entry Point Setting",
@@ -15,7 +15,7 @@
     "published"
   ],
   "category": [
-    "setting"
+    "Setting"
   ],
   "tags": [
     "qeyvms"

@@ -3,7 +3,7 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2020-11-26T18:25:46Z",
+  "updated": "2020-11-26T18:46:38Z",
   "id": "visitor-type",
   "duration": 0,
   "title": "Visitor Type Setting",
@@ -15,7 +15,7 @@
     "published"
   ],
   "category": [
-    "setting"
+    "Setting"
   ],
   "tags": [
     "qeyvms"
